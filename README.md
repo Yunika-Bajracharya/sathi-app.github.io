@@ -1,2 +1,1 @@
-# sathi-app.github.io
-Sathi App Website
+# Sathi App Website
