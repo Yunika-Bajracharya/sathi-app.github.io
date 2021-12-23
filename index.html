@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sathi App</title>
+    <meta name="title" content="Sathi App" />
+    <meta name="description" content="Making Life Easier for Type I Diabetic Patients." />
+
+    <link rel="shortcut icon" href="./assets/icons/favicon2.ico" />
+
+    <!-- Bootstrap File -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!--CSS File-->
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="./scss/OwlCarousel/dist/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="./scss/OwlCarousel/dist/assets/owl.carousel.min.css" />
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+
+</head>
+<body data-spy="scroll" data-target=".navbar">
+    
+    <!-- HEADER STARTS -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    Sathi App
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                      <i class="fa fa-bars" style="color:rgb(255, 255, 255); font-size:28px;"></i>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link" style="color: #5f82ad;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#why">Why</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#screenshots">Screenshots</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HEADER ENDS -->
+
+    <!-- BANNER STARTS -->
+
+    <section class="banner">
+        <div class="container h-100">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <div class="banner-text">
+                        <h1>
+                            Making Life Easier for Type I Diabetic Patients.
+                        </h1>
+                        <a href="#about">Learn More...</a>
+                    </div>
+                </div>
+                <div class="col-6 d-none d-md-block">
+                    <div class="banner-image-box" style="text-align: right;">
+                        <img src="./assets/images/banner.png" alt="" style="width:80%;">
+                    </div>
+                </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- BANNER ENDS -->
+
+    <!-- ABOUT SECTION STARTS -->
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <h3 class="text-center">
+                About Sathi App
+            </h3>
+            <div class="row">
+                <div class="col-12">
+                    <p>
+                        Sathi App is your friendly app for Type I Diabetic Patients to make their life easier. The app sends notification to the patient regarding timely blood sugar checkup and medication, to the local guardian if the patient misses the notification, and also to the doctor if the patient's blood sugar level goes extremely high so that timely action can be taken to avoid any bad consequences.
+                    </p>
+                </div>
+              
+            </div>
+            <div class="row about-cards">
+                <div class="col-xl-4 col-md-6 col-sm-12 my-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/alert.png" alt="Card image cap">
+                        <div class="card-body">
+                            <p>Personalized Notification for medication and checkup.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12 my-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/trust.png" alt="Card image cap">
+                        <div class="card-body">
+                            <p>Dosage Alerts sent to Trusted Person and Medical Personnels.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-12 col-sm-12 my-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/clock.png" alt="Card image cap">
+                        <div class="card-body">
+                            <p>Personalized Recommendations for Glucose level reading Timings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- FEATURES SECTION -->
+    
+    <section class="features" id="features" style="padding-left: 20px; padding-right: 20px;">
+      <div class="container">
+        <h3 class="text-center">Features</h3>
+        <div class="row">
+          <div class="col-lg-8 col-md-7 col-sm-12 com-sm-12 features-list carousel slide my-2" data-ride="carousel">
+            <ul>
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">Easy To Use</li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active">Medication and Insulin Notification
+              </li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active">Economic and Cost Efficient</li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3" class="active">Logging of Sugar Level
+              </li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4" class="active">Alerts in Necessary Cases
+              </li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5" class="active">History Based Glucose Reading Suggestions</li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="6" class="active">Personalized Notification</li>
+            </ul>
+          </div>
+    
+          <div class="col-lg-4 col-md-5 col-sm-12 features-slider-box mt-2">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/images/features/easy.png" alt="Card image cap" style="padding: 15px;">
+                    <div class="card-body">
+                      <p>Easy To Use</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/images/features/insulin.jpg" alt="Card image cap" style="padding: 15px;">
+                    <div class="card-body">
+                      <p>Medication and Insulin Notification</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/images/features/cost efficien.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p>Economic and Cost Efficient</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/images/features/logging.jpg" alt="Card image cap" style="padding: 15px;">
+                    <div class="card-body">
+                      <p>Logging of Sugar Level</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/images/alert.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p>Alerts in Necessary Cases</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/images/features/log.png" alt="Card image cap" style="padding: 15px;">
+                    <div class="card-body">
+                      <p>History Based Glucose Reading Suggestions</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card">
+                    <img class="card-img-top w-50" src="assets/images/trust.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p>Personalized Notification</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <!-- FEATURES SECTION ENDS -->
+
+    <!-- INTERFACE STARTS -->
+    <!-- New Slider type carousel -->
+    <section class="interface" id="why">
+    <h2 class="text-center">Why Sathi?</h2>
+    <div class="container my-2">
+      <div class="row outer">
+        <div class="col-sm-12 m-auto">
+          <img src="./assets/images/why.png" alt="" style="width: 100%;">
+        </div>
+        </div>
+        </div>
+        </section>
+    <!-- INTERFACE ENDS -->
+
+      <!-- Screenshots SECTION STARTS -->
+      <section class="screenshots" id="screenshots">
+        
+          <div class="row m-0" style="padding: 0 30px;">
+            <div class="col-lg-10 col-sm-12 m-auto">
+
+          <h3 class="text-center" style="margin-bottom:20px;">Screenshots</h3>
+          <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="./assets/images/screenshot/one.png" alt="Owl Image" class="screenshots-image" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/screenshot/two.png" alt="Owl Image" class="screenshots-image" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/screenshot/three.png" alt="Owl Image" class="screenshots-image" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/screenshot/four.png" alt="Owl Image" class="screenshots-image"/>
+            </div>
+            <div class="item">
+              <img src="./assets/images/screenshot/five.png" alt="Owl Image" class="screenshots-image" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/screenshot/six.png" alt="Owl Image" class="screenshots-image" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/screenshot/seven.png" alt="Owl Image" class="screenshots-image" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/screenshot/eight.png" alt="Owl Image" class="screenshots-image" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/screenshot/nine.png" alt="Owl Image" class="screenshots-image" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/screenshot/ten.png" alt="Owl Image" class="screenshots-image" style="object-position: 20%;" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/screenshot/eleven.png" alt="Owl Image" class="screenshots-image" />
+            </div>
+          </div>
+          </div>
+          
+          <!-- fdlaskjds -->
+        </div>
+      </section>
+      
+      <!-- SC ENDS -->
+
+
+    <!-- CONTACT US SECTION BEGINS -->
+    <section class="contact" id="contact">
+      <div class="container">
+<!--         <h1>Contact us</h1> -->
+         <h3 class="text-center" style="margin-bottom:20px;">Contact Us</h3>
+        <div class="row">
+          <div class="col-lg-9">
+            
+            <form action="https://formspree.io/f/xzbozpzk" method="POST">
+              <div class="form-group">
+                <input
+                  name="name"
+                  type="text"
+                  class="form-control contact-label"
+                  placeholder="Enter Your Name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type=" "
+                  name="mail"
+                  class="form-control contact-label"
+                  placeholder="Enter your email address"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="Message"
+                  id=""
+                  cols="25"
+                  rows="5"
+                  class="contact-label"
+                  placeholder="Message ..."
+                  style="resize: none;"
+                ></textarea>
+              </div>
+              <input type="submit" class="contact-button" value="Send">
+              <!-- <button class="contact-button">Send</button> -->
+            </form>
+          </div>
+          <div class="col-lg-3 d-none d-lg-block">
+            <div class="contact-icons-bar">
+              <a href="https://twitter.com/" class="icon-side"
+                ><span
+                  class="fa fa-twitter"
+                  style="
+                    padding: 15px 12px;
+                    font-size: 17.4px;
+                    color: rgb(231, 230, 230);
+                  "
+                  aria-hidden="true"
+                ></span
+              ></a>
+
+              <a href="https://www.linkedin.com/">
+                <span
+                  class="fa fa-linkedin"
+                  style="
+                    padding: 15px 12px;
+                    font-size: 17.4px;
+                    color: rgb(231, 230, 230);
+                  "
+                  aria-hidden="true"
+                ></span
+              ></a>
+
+              <a href="https://www.facebook.com/">
+                <span
+                  class="fa fa-facebook"
+                  style="
+                    padding: 15px 12px;
+                    font-size: 17.4px;
+                    color: rgb(231, 230, 230);
+                  "
+                  aria-hidden="true"
+                ></span
+              ></a>
+              <a href="https://github.com/sathi-app" class="icon-side">
+                <span
+                  class="fa fa-github"
+                  style="
+                    padding: 15px 12px;
+                    font-size: 17.4px;
+                    color: rgb(231, 230, 230);
+                  "
+                  aria-hidden="true"
+                ></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION ENDS -->
+      <!-- TEAM SECTION STARTS -->
+      <section class="teams" id="team">
+        <div class="row m-0"> 
+          <!-- m-0 written for balancing or to precent horizontal scroll bar -->
+          <div class="col-10 m-auto">
+  <!--           <h1>The Team</h1> -->
+            <h3 class="text-center" style="margin-bottom:20px;">by The Team</h3>
+            <h3 class="text-center" style="margin-bottom:20px;">Technopalis</h3>
+            
+          </div>
+        </div>
+      </section>
+      
+      <!-- TEAM SECTION ENDS -->
+
+    <!-- FOOTER STARTS -->
+    <footer class="footer" id="footer">
+      <section class="footer-first">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <h1>En Sat</h1>
+            <p class="footer-logo-para">Connect with us</p>
+            <a href="https://www.linkedin.com/" class="footer-icon-side">
+              <span class="fa fa-linkedin" style=" padding: 15px 18px 0 3px; font-size: 17.4px; color: rgb(214, 213, 213);" aria-hidden="true"></span></a>
+              <a href="https://twitter.com/" class="footer-icon-side">
+                <span class="fa fa-twitter" style=" padding: 15px 18px 0 3px; font-size: 17.4px; color: rgb(214, 213, 213);"
+                  aria-hidden="true"></span></a>
+                  <a href="https://www.facebook.com/" class="footer-icon-side">
+                    <span class="fa fa-facebook" style=" padding: 15px 18px 0 3px; font-size: 17.4px; color: rgb(214, 213, 213);"
+                      aria-hidden="true"></span></a>
+                      <a href="https://github.com/sathi-app" class="footer-icon-side">
+                        <span class="fa fa-github" style=" padding: 15px 15px 0 3px; font-size: 17.4px; color: rgb(214, 213, 213);"
+                          aria-hidden="true"></span></a>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <h3>Have a question?</h3>
+            <div class="footer-first-explore">
+              <span class="fa fa-address-book"></span>
+              <span class="footer-first-explore-inside">Kathmandu, Nepal</span>
+            </div>
+            <div class="footer-first-explore">
+              <span class="fa fa-envelope-open"></span>
+              <span class="footer-first-explore-inside">thesathiapp@gmail.com</span>
+            </div>
+            
+            
+          </div>
+          <div class="col-xl-4 col-md-12 col-sm-12 text-center text-align-right-mobile">
+            <h3>Explore</h3>
+            <div class="footer-first-explore">
+              <span class="fa fa-home"></span>
+              <span class="footer-first-explore-inside"><a href="#" style="color:black;">Home</a></span>
+            </div>
+            <div class="footer-first-explore">
+              <span class="fa fa-envelope" ></span>
+              <span class="footer-first-explore-inside"><a href="#contact" style="color:black;">Email</a></span>
+            </div>
+            <div class="footer-first-explore">
+              <span class="fa fa-circle"></span>
+              <span class="footer-first-explore-inside"><a href="#about" style="color:black;">About</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="footer-second text-center">
+        <div class="container">
+          Copyrights &copy;2021 All rights reserved | This website is made with <span class="fa fa-heart" style="color: rgb(250, 127, 127);"></span> by team Technopalis Nepal
+        </div>
+      </section>
+    </footer>
+    <!-- FOOTER ENDS -->
+
+
+    
+
+    <!-- JS Files -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+      // $(document).ready(function () {
+      //   $("#owl-demo").owlCarousel({
+      //     autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+      //     items: 4,
+      //     itemsDesktop: [1199, 3],
+      //     itemsDesktopSmall: [979, 3],
+      //   });
+      // });
+      $(document).ready(function () {
+        $("#owl-demo").owlCarousel({
+          
+
+          // RESPONSIVE not doing now
+          responsiveClass: true,
+          responsive: {
+            0: {
+             //this is just looping
+              loop: true,
+              //this is navigation arrows
+              nav: true,
+              navText: [
+                '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+              ],
+              items:1,
+              autoplay: true,
+              autoplayTimeout: 1650,
+              autoplayHoverPause: true,
+            },
+            600: {
+              //this is just looping
+              loop: true,
+              //this is navigation arrows
+              nav: true,
+              navText: [
+                '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+              ],
+              items:2,
+              autoplay: true,
+              autoplayTimeout: 1650,
+              autoplayHoverPause: true,
+            },
+            1000: {
+             //this is just looping
+              loop: true,
+              //this is navigation arrows
+              nav: true,
+              navText: [
+                '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+              ],
+              items:5,
+              autoplay: true,
+              autoplayTimeout: 1650,
+              autoplayHoverPause: true,
+            },
+          },
+        });
+      });
+    </script>
+    <style>
+      #owl-demo .item {
+        padding: 30px 0px;
+        margin: 10px;
+        color: #fff;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        text-align: center;
+      }
+      .owl-prev {
+        width: 15px;
+        height: 100px;
+        position: absolute;
+        top: 40%;
+        margin-left: -20px;
+        display: block !important;
+        border: 0px solid black;
+      }
+
+      .owl-next {
+        width: 15px;
+        height: 100px;
+        position: absolute;
+        top: 40%;
+        right: -25px;
+        display: block !important;
+        border: 0px solid black;
+      }
+      .owl-prev i,
+      .owl-next i {
+        transform: scale(5);
+        color: rgb(151, 151, 151);
+      }
+
+        @media (max-width:1200px) {
+          .text-align-right-mobile{
+            text-align: left !important;
+          }
+        }
+      
+    </style>
+  </body>
+</html>
